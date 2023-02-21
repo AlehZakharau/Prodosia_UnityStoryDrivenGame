@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Utilities
+{
+    static class ShuffleExtension
+    {
+        private static Random rng = new Random();
+
+        public static void Shuffle<T>(this IList<T> list)
+        {
+            var n = list.Count;
+            while (n > 1)
+            {
+                n--;
+                var k = rng.Next(n + 1);
+                (list[k], list[n]) = (list[n], list[k]);
+            }
+        }
+        
+        
+        public static void Shuffle<T>(this T[] array)
+        {
+            var n = array.Length;
+            while (n > 1)
+            {
+                n--;
+                var k = rng.Next(n + 1);
+                (array[k], array[n]) = (array[n], array[k]);
+            }
+        }
+    }
+}
