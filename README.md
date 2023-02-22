@@ -3,6 +3,10 @@ Prodosia is a quiz game featuring a professional voice-over, created specificall
 
 ## Description
 
+
+https://user-images.githubusercontent.com/38154177/220776116-3d76eb11-39f6-4f11-a742-8093aef76e2c.mp4
+
+
 Prodosia is a horror story-driven quiz game that was created for Ludum Dare 49. The project features professional voice-over and achieved good results in the jam, taking second place in the audio category.
 
 Plot: Many years ago, we discovered a Goddess beneath the earth. With her guidance, we entered a Golden Age: wars ended, non-discriminatory laws were established, governments were disestablished, and we ventured into the stars, where we reside to this day. The Goddess became the mother to all people, but some chose to remain as orphans.
